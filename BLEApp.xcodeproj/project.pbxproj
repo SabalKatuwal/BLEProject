@@ -11,6 +11,8 @@
 		A6B5C3522D114D040079FC6B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B5C3512D114D040079FC6B /* ContentView.swift */; };
 		A6B5C3542D114D060079FC6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6B5C3532D114D060079FC6B /* Assets.xcassets */; };
 		A6B5C3572D114D060079FC6B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6B5C3562D114D060079FC6B /* Preview Assets.xcassets */; };
+		A6B5C3612D114D610079FC6B /* PeripheralModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B5C3602D114D610079FC6B /* PeripheralModel.swift */; };
+		A6B5C3632D114E9B0079FC6B /* BLEManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B5C3622D114E9B0079FC6B /* BLEManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		A6B5C3512D114D040079FC6B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A6B5C3532D114D060079FC6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A6B5C3562D114D060079FC6B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A6B5C3602D114D610079FC6B /* PeripheralModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeripheralModel.swift; sourceTree = "<group>"; };
+		A6B5C3622D114E9B0079FC6B /* BLEManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +55,10 @@
 		A6B5C34E2D114D040079FC6B /* BLEApp */ = {
 			isa = PBXGroup;
 			children = (
+				A6B5C35D2D114D110079FC6B /* Model */,
+				A6B5C35E2D114D190079FC6B /* ViewModel */,
+				A6B5C35F2D114D250079FC6B /* Views */,
 				A6B5C34F2D114D040079FC6B /* BLEAppApp.swift */,
-				A6B5C3512D114D040079FC6B /* ContentView.swift */,
 				A6B5C3532D114D060079FC6B /* Assets.xcassets */,
 				A6B5C3552D114D060079FC6B /* Preview Content */,
 			);
@@ -65,6 +71,30 @@
 				A6B5C3562D114D060079FC6B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A6B5C35D2D114D110079FC6B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A6B5C3602D114D610079FC6B /* PeripheralModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A6B5C35E2D114D190079FC6B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A6B5C3622D114E9B0079FC6B /* BLEManager.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A6B5C35F2D114D250079FC6B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A6B5C3512D114D040079FC6B /* ContentView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +168,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A6B5C3522D114D040079FC6B /* ContentView.swift in Sources */,
+				A6B5C3632D114E9B0079FC6B /* BLEManager.swift in Sources */,
 				A6B5C3502D114D040079FC6B /* BLEAppApp.swift in Sources */,
+				A6B5C3612D114D610079FC6B /* PeripheralModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
