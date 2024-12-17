@@ -99,7 +99,7 @@ class BLEManager: NSObject, ObservableObject, CBCentralManagerDelegate, CBPeriph
     func peripheral(_ peripheral: CBPeripheral, didDiscoverCharacteristicsFor service: CBService, error: (any Error)?) {
         if let characteristics = service.characteristics {
             for charc in characteristics {
-                print("Discovered characteristic \(service.uuid)")
+                print("Discovered characteristic \(charc.uuid)")
                 // interact with charac if needed
             }
         }
