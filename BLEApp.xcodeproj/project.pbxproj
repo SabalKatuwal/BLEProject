@@ -13,6 +13,7 @@
 		A6B5C3572D114D060079FC6B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6B5C3562D114D060079FC6B /* Preview Assets.xcassets */; };
 		A6B5C3612D114D610079FC6B /* PeripheralModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B5C3602D114D610079FC6B /* PeripheralModel.swift */; };
 		A6B5C3632D114E9B0079FC6B /* BLEManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B5C3622D114E9B0079FC6B /* BLEManager.swift */; };
+		A6B5C3652D1168FA0079FC6B /* BluetoothDeviceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B5C3642D1168FA0079FC6B /* BluetoothDeviceView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		A6B5C3562D114D060079FC6B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A6B5C3602D114D610079FC6B /* PeripheralModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeripheralModel.swift; sourceTree = "<group>"; };
 		A6B5C3622D114E9B0079FC6B /* BLEManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEManager.swift; sourceTree = "<group>"; };
+		A6B5C3642D1168FA0079FC6B /* BluetoothDeviceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothDeviceView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				A6B5C3512D114D040079FC6B /* ContentView.swift */,
+				A6B5C3642D1168FA0079FC6B /* BluetoothDeviceView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -170,6 +173,7 @@
 				A6B5C3522D114D040079FC6B /* ContentView.swift in Sources */,
 				A6B5C3632D114E9B0079FC6B /* BLEManager.swift in Sources */,
 				A6B5C3502D114D040079FC6B /* BLEAppApp.swift in Sources */,
+				A6B5C3652D1168FA0079FC6B /* BluetoothDeviceView.swift in Sources */,
 				A6B5C3612D114D610079FC6B /* PeripheralModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

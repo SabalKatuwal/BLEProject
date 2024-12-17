@@ -13,7 +13,7 @@ class BLEManager: NSObject, ObservableObject, CBCentralManagerDelegate, CBPeriph
     var myCentral: CBCentralManager!
     
     @Published var isSwitchedOn: Bool = false   //Bluetoot is On or Off
-    @Published var peripherals = [PeripheralModel]()
+    @Published var peripherals: [PeripheralModel] = []
     @Published var connectedPeripheralsUUID: UUID?
     
     override init() {

@@ -7,8 +7,8 @@
 
 import Foundation
 
-struct PeripheralModel {
-    var id: UUID
+struct PeripheralModel: Identifiable {
+    let id: UUID
     var name: String
     var RSSI: Int //for signal strength of peripherals
 }
