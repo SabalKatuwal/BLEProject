@@ -26,8 +26,10 @@ class BLEManager: NSObject, ObservableObject, CBCentralManagerDelegate, CBPeriph
         isSwitchedOn = central.state == .poweredOn
         if isSwitchedOn {
             //start scanning
+            startScanning()
         } else {
             //stop scanning
+            stopScanning()
         }
         
     }
